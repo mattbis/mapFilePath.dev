@@ -1,8 +1,25 @@
 {
   "description": "A quick test with friend; and also to see how this compares. It should work in each...",
-  "type":"module",
-  "author":"mattbis",
-  "version":"1.0.0",
-  "dependencies": {
-  }
+  "type": "module",
+  "author": "mattbis",
+  "version": "1.0.0",
+  "name": "mapfilepath.dev",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbis/mapFilePath.dev.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattbis/mapFilePath.dev/issues"
+  },
+  "homepage": "https://github.com/mattbis/mapFilePath.dev#readme"
 }
