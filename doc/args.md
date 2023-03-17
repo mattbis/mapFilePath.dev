@@ -4,3 +4,4 @@
 - `--format`
 ## complex only
 - `-o` `--out` as well as stdout append to file 
+- `c` `--count` make a total count ( obv slow down ) 
