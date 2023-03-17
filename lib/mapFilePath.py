@@ -1,6 +1,8 @@
 import os
 import json
 
+# this has some problems as well.. 
+
 def map_file_path(path):
     try:
         stats = os.stat(path)
