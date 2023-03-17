@@ -1,0 +1,4 @@
+- `--flat` :default | `--nested`
+- ~`-d` `--depth`~
+- `--verbose`
+- `--format`
