@@ -1,7 +1,7 @@
 import os
 import json
 
-# this has some problems as well.. 
+# this has some problems as well.. I really like how easy it is to do the main part in python.. 
 
 def map_file_path(path):
     try:
