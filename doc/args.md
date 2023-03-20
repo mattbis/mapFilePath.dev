@@ -10,4 +10,5 @@
 ### map src
 - etc
 ### chunk
-- `--chunk` when out [[chunk]] from `-l` and with ? `-o`. `--chunk` implies `8192` ( probably ) 
+- todo: 1m 8192b 1g etc
+- `--chunk` `[size]` when out [[chunk]]  and with ? `-o`.
