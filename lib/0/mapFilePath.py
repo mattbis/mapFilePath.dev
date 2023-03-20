@@ -1,27 +1,20 @@
 import os
 import json
 
-# this has many problems as well..  I really like how easy it is to do the main part in python.. 
-# i took no time on this.. but its fast.. surpsingly.. however.. its obiously not right.. 
-
+# maybe walk is a good name.. hmmm
 def map_file_path(path):
-    try:
-        stats = os.stat(path)
-        if os.path.isfile(path):
-            return [{'path': path, 'stats': stats}]
-        elif os.path.isdir(path):
-            result = []
-            for entry in os.scandir(path):
-                if not entry.name.startswith('.') and entry.is_file():
-                    result.append({'path': entry.path, 'stats': entry.stat()})
-                elif entry.is_dir():
-                    result += map_file_path(entry.path)
-            return result
-    except Exception as e:
-        return [{'path': path, 'error': str(e)}]
+    result = {}
+    for entry in os.scandir(path):
+        if entry.is_dir():
+            result[entry.path] = map_file_path(entry.path)
+        else:
+            try:
+                stats = entry.stat()
+                result[entry.path] = { **stats.__dict__, "path": entry.path }
+            except OSError as error:
+                result[entry.path] = str(error)
+    return result
 
 if __name__ == "__main__":
-    import sys
-    path = sys.argv[1]
-    result = map_file_path(path)
-    print(json.dumps(result, indent=4))
+    path = input()
+    print(json.dumps(map_file_path(path)))
