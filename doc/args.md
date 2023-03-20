@@ -5,3 +5,5 @@
 - `--format`
 - `-o` `--out` as well as stdout append to file 
 - `c` `--count` make a total count ( obv slow down ) 
+## chunk
+- `--chunk`
