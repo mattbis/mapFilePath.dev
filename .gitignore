@@ -1,2 +1,6 @@
-.node_nodules
-var/run
+.DS_Store
+.vscode
+.idea
+node_modules/
+./var/run
+./var/build
