@@ -6,6 +6,8 @@
   "directories": {
     "doc": "doc",
     "lib": "lib",
+    "res": "res",
+    "src": "src",
     "test": "test"
   },
   "scripts": {
