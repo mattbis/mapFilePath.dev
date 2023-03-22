@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/mattbis/mapFilePath.dev.git"
   },
-  "license": "ISC",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/mattbis/mapFilePath.dev/issues"
   },
