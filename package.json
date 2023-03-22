@@ -1,9 +1,8 @@
 {
-  "description": "A quick test...",
+  "description": "mapFilePath: A quick test... library package",
   "author": "mattbis",
   "version": "1.0.0",
   "name": "mapfilepath.dev",
-  "main": "index.js",
   "directories": {
     "doc": "doc",
     "lib": "lib",
