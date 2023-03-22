@@ -1,1 +1,1 @@
-1. these are only ones i am planing to use since that is already enough. Also we are not really gonna do the complex for so many things since 2/ means it overlaps and 1/ is kinda subset it depends on the language.
+1. these are only ones i am planing to use since that is already enough. Also we are not really gonna do the complex for so many things since 2/ means it overlaps and 1/ is kinda subset it depends on the language. Or well 2/ is 1/ but augmented.
