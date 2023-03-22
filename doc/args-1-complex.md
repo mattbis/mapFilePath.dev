@@ -1,5 +1,5 @@
 ## complex only
-- `--flat` :default | `--nested`
+- `--flat` :default | `--nested` ( default for 0 )
 - ~`-d` `--depth`~
 - `--verbose`
 - `--debug` overrides file
