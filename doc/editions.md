@@ -5,3 +5,5 @@
 `--chunk` this means the algorithm will instead chunk the data...
 concerned about your disks?
 `-d 10000` wait for ms 
+## 2 
+`--workers i`
