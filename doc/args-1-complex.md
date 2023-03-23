@@ -5,6 +5,8 @@
 
 - `--pipe` this means you cant see any error or information; it overrides below configurability. ( we only have one output to keep it simple ) 
 
+// in a 3. i suppose this woudl be mutated by it in fact being logging .. mixxing it up too uch.. 
+
 - `--verbose`
 
 - `-o` `--out` as well as stdout append to file ( this will only duplicate std out, minus: messages )
