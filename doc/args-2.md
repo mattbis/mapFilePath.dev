@@ -3,4 +3,4 @@
 - ( implicit ) `--workers`
 - `--workers 4`
 ### change the delays
-`-d` `-lfo 1000 5000` ( only after `-d` )
+`-d` `-lfo 1000 5000 150000` ( only after `-d` )
