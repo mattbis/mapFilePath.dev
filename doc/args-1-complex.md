@@ -3,7 +3,7 @@
 - ~`-d` `--depth`~
 - `--verbose`
 - `--debug` overrides file
-- `--format`
+- ~`--format`~ json only for now
 - `-o` `--out` as well as stdout append to file ( this will only duplicate std out ) 
 - `c` `--count` make a total count ( obv slow down ) 
 - `q` stops any messages when used for direct invocation
