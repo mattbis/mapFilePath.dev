@@ -13,3 +13,5 @@ this uses libraries and is much larger
 `--header`
 `-range`
 `-block`
+## 6
+use channels within binding for topic nomination fast
