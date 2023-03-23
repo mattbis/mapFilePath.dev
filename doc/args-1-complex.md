@@ -5,7 +5,7 @@
 
 - `--pipe` this means you cant see any error or information; it overrides below configurability. ( we only have one output to keep it simple ) 
 
-// in a 3. i suppose this woudl be mutated by it in fact being logging .. mixxing it up too uch.. 
+// in a 3. i suppose this woudl be mutated by it in fact being logging .. mixxing it up too uch.. 3 would fit in its probably the only variant that requires some logging library.. 
 
 - `--verbose`
 
