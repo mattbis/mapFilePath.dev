@@ -2,9 +2,9 @@ todo - not happy with this and i forgot about subargs.. style...
 
 a. decide on chunk size of the output as its processed
 
-i. `--chunk -length 8192` stop on 8192 entries
+i. `--chunk -entries 8192` stop on 8192 entries
 ii. `--chunk -size 8192mb` chunk in block segmentation
-ii. `--chunk -size 8192b` chunk on size
+ii. `--chunk -size 8192b` chunk ..
 
 b. control the output chunk name
   1. `--chunk-filename-pattern` `-cfp`
