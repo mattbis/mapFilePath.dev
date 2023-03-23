@@ -8,6 +8,6 @@ ii. `--chunk -size 8192b` chunk ..
 
 b. control the output chunk name
   1. `--chunk-filename-pattern` `-cfp`
-    i. `mapFilePath --cfp null,1` === filename, index => `mapFilePath.1.json`
-    ii. `mapFilePath --cfp word,1` === filename, index => `word.1.json`, `11`
-    iii. `mapFilePath --cfp word,a` === filename, index => `word.a.json`, `aa`
+    i. `mapFilePath --cfp null,1` === filename, index => `mapFilePath-1.json`
+    ii. `mapFilePath --cfp word,1` === filename, index => `word-1.json`, `2`, `11`
+    iii. `mapFilePath --cfp word,a` === filename, index => `word-a.json`, `b`, `aa`
