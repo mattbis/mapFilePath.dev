@@ -1,4 +1,4 @@
-todo - not happy with this and i forgot about subargs.. style... 
+1. it only has this kind of incremental scalar type thing .. a or 1. such that the blocks make some sense. This is really easy to do in the algorithms also. 
 
 a. decide on chunk size of the output as its processed
 
