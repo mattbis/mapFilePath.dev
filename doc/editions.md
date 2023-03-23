@@ -6,4 +6,5 @@
 concerned about your disks?
 `-d 10000` wait for ms 
 ## 2 
+since it allows workers it also has to protect against insane numbers... 
 `--workers i`
