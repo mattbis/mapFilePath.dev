@@ -8,3 +8,8 @@ concerned about your disks?
 ## 2 
 since it allows workers it also has to protect against insane numbers... 
 `--workers i`
+## 5
+this uses libraries and is much larger
+`--header`
+`-range`
+`-block`
