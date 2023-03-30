@@ -4,13 +4,14 @@ in this application like before, some args only work around things.. in the main
 
 This also leads me to think this could have way too many args.. however, its mostly meant to be some kind of API I will use.
 
-- `--range`
-- `--range -end [topic]`
-
 - `m`
   - `matts|mstats|mheaders|mcontent|mblock`
   
 - `Class Selector` ==>
+- `--range`
+- `--range -end [topic]`
+- `--range -every -entries 512`
+- `--range -end -size 1b` the selector means it will only select the first byte of whatever it is
 
 - `q`|`query`
 - `q [str]`
