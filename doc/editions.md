@@ -18,3 +18,5 @@ use channels within binding for topic nomination fast
 ## 7 
 control the output format to be a type of parseable binary data tree ( not really a filesystem but close to one ) 
 control the output to sqllite or something liek that .. 
+## 8 
+allow learning on the cache i suppose.. and using a sync generalisation ( not finite  its some fast big structure ) 
