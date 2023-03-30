@@ -2,6 +2,7 @@
 
 - `q`
 - `q [str]`
+  - `qfrag`
 - `q [topic] [str]`
 - `q * [bits]`
 - `qtopic` ==> ** mod:
