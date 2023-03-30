@@ -37,7 +37,8 @@ The above depends on Cpp, Go or Rust since that is the only languages id even at
 
 This is intended as just a very fancy way to control how the searching, mapping, indexing, caching, diff works... And is meant for a complex application like the other projects I am thinking about. 
 
-A port is binding to the engine... which is included or a daemon. 
+A port is binding to the engine... which is included or a daemon.
+A channel is a stream.
 A channel is a isolated request from the topic complexity
 A channel is a way to request the same topic but in differing live queries.
 A topic is a struct, that matches the included build headers... it only matches the default build or a custom one ( since I would not want a giant exe tbh ) - differring via the binding into another language would make it silly.. and this is why this part is likely only a subset at first ( `-images [media-type]` , `-audio [media-type]` ) 
