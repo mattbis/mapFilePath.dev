@@ -21,6 +21,7 @@
 `getChannel`|`channel`
 `setTopic`|`topic`
 `setChannelMode`
+`setChannelAttributes`
 
 ### processing
 `setPq`|`pq`
