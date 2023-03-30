@@ -12,6 +12,7 @@
 `setChannelLimit`
 `setTopicLimit`
 `setDiffLimit`
+`setTransformerLimit`
 `setGarbagePolicy`
 `exhaust`
 `immediate`
