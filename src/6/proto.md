@@ -1,4 +1,5 @@
 - something like:-
+`getPort`
 `getChannel`
 `orderByPq`
 `orderByManifest`
@@ -6,6 +7,7 @@
 `setPq`
 `stop`
 `setPqRecord`
+`setTransformer`
 `exhaust`
 `threaded`
 `single`
