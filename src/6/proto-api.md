@@ -45,7 +45,7 @@
 `setResident`
 
 ### all
-`stop`|`pause`
+`start`|`stop`|`pause`
 `setPhase`
 `exhaust`
 `immediate`
