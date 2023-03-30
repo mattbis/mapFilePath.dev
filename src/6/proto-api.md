@@ -63,6 +63,7 @@ This also leads me to think this could have way too many args.. however, its mos
 `PHASE_POST`
 `CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think. ITs teh default... this is only in a build i guess.. 
 `CHANNEL_ISOLATE` dont use any shared caches or structures.
+`FILTER_ISOLATE` dont use any shared caches or structures.
 
 ### filters can apply to ports and channels...
 `setChannelFilter`|`filter`|`no-filter`
