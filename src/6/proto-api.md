@@ -5,18 +5,25 @@
 `orderByManifest`
 `setManifest`|`manifest`
 `setTopic`|`topic`
+
 `setPq`|`pq`
-`stop`|`pause`
+`setHq`|`hq`
+`setOq`|`oq`
 `setHqRecord`
 `setPqRecord`
+`setOqRecord`
+
 `setTransformer`
+
 `setScheduler`
 `setChannelLimit`
 `setTopicLimit`
 `setDiffLimit`
 `setTransformerLimit`
 `setGarbagePolicy`
+
 ### all
+`stop`|`pause`
 `setPhase`
 `exhaust`
 `immediate`
