@@ -1,5 +1,12 @@
 ## wip: something like api:
 
+- `q`
+- `q [str]`
+- `qtopic` ==>
+- `qatts`
+- `qstats`
+- `qheader`
+
 ### ports
 `getPort`|`port`
 `setPortPolicy`
