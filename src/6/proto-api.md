@@ -2,17 +2,22 @@
 
 - `q`
 - `q [str]`
-- `qtopic` ==>
+- `q [topic] [str]`
+- `q * [bits]`
+- `qtopic` ==> ** mod:
 - `qatts`
 - `qstats`
 - `qheader`
+- `qcontent`
+- `qblock`
 
 ### ports
-`getPort`|`port`
-`setPortPolicy`
-`_setDefaultFromFilter`
-`setPortCachePolicy`
-`setDestructorPolicy`
+`getPort`|`port` 
+`setPortPolicy` set a blanket policy tree that effects the others, then you change it for each thing if you want
+`_setDefaultFromFilter` create port from a filter type  that searches everthing
+`setPortCachePolicy` stop it using shared caches for diff and sync
+`setDestructorPolicy` make it not care
+`setTransformerPolicy` set what the transformer does
 
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
@@ -64,6 +69,10 @@
 
 ### output
 `setTransformer`
+`getTransformer`
+`getTransformers`
+`getOutputPolicy`
+`setOutputPolicy`
 
 ### runner/runtime/policy
 `setScheduler`
