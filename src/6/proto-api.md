@@ -1,16 +1,28 @@
 ## wip: something like api:
+
+### ports
 `getPort`|`port`
 `setPortPolicy`
-`setManifest`|`manifest` sets a whole load of things in one go
+`_setDefaultFromFilter`
 
+### filters can apply to ports and channels...
 `setChannelFilter`|`filter`|`no-filter`
 `setFilter`
 `getFilter`
 `setFilterManifest`
+`getFilterFromMode`
+`getFilterFromAttributes`
+`setManifest`|`manifest` sets a whole load of things in one go
+`setMode`
+`setAttributes`
 
+
+### channels
 `getChannel`|`channel`
 `setTopic`|`topic`
+`setChannelMode`
 
+### processing
 `setPq`|`pq`
 `setHq`|`hq`
 `setOq`|`oq`
@@ -18,8 +30,10 @@
 `setPqRecord`
 `setOqRecord`
 
+### output
 `setTransformer`
 
+### runner/runtime/policy
 `setScheduler`
 `setChannelLimit`
 `setChannelPolicy` this means a channel can share results from another channel ( within a port ) 
@@ -27,6 +41,7 @@
 `setDiffLimit`
 `setTransformerLimit`
 `setGarbagePolicy`
+`setResident`
 
 ### all
 `stop`|`pause`
@@ -43,7 +58,8 @@
 `PORT_CHANNEL_DUMP` forces `var/dump` for debugging
 `PHASE_PRE`
 `PHASE_POST`
-`CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think.
+`CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think. ITs teh default... this is only in a build i guess.. 
+`CHANNEL_ISOLATE` dont use any shared caches or structures.
 
 #### implied, part of it, etc.. or programmable.. 
 
@@ -51,6 +67,7 @@
 `TopicIndexer`
 `Stream`
 `Writer`
+`SlothWriter`
 
 
 ### from prev versions:
@@ -73,7 +90,17 @@ A port is binding to the engine... which is included or a daemon.
 A channel is a stream.
 A channel is a isolated request from the topic complexity
 A channel is a way to request the same topic but in differing live queries.
-A topic is a struct, that matches the included build headers... it only matches the default build or a custom one ( since I would not want a giant exe tbh ) - differring via the binding into another language would make it silly.. and this is why this part is likely only a subset at first ( `-images [media-type]` , `-audio [media-type]` ) 
+A topic is a struct, that matches the included build headers... it only matches the default build or a custom one ( since I would not want a giant exe tbh ) - differring via the binding into another language would make it silly.. and this is why this part is likely only a subset at first ( `-images [media-type]` , `-audio [media-type]` )
+
+A topic can be a type of perm query.
+A topic can be queried.
+A channels topic results can be merged if the channels have the same filter.
+
+A channel will share its physical data.
+A channel will share its fs data.
+A channel can not share any data.
+
+A filter controls. How channels or ports. respond. Such that a filter can apply across the app or library. Or be used in a channel. The filter effects the pipeline. And cannot be undone. 
 
 A pq will set a type of record that orders the results, and controls what responds first. Or how things are resolved.. in a type of walk manifest.
 
