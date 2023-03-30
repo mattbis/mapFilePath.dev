@@ -1,13 +1,14 @@
 - something like:-
-`getPort`
-`getChannel`
+`getPort`|`port`
+`getChannel`|`channel`
 `orderByPq`
 `orderByManifest`
-`setTopic`
+`setTopic`|`topic`
 `setPq`
 `stop`
 `setPqRecord`
 `setTransformer`
+`setScheduler`
 `exhaust`
 `threaded`
 `single`
