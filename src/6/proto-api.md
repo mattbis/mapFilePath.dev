@@ -28,6 +28,12 @@ This also leads me to think this could have way too many args.. however, its mos
   - `qrange`
 
 ### ports
+using engine
+  `setVarPolicy`
+  `setLocationVar`
+  `setLocation`
+  `setVarMemoryOnly` ==> `ram://var/**`
+
 `getPort`|`port` 
 - `setManifest` -- as below
 `_setDefaultFromFilter` create port from a filter type  that searches everthing; you then for example use channels to refine it or whatever... 
@@ -37,12 +43,6 @@ This also leads me to think this could have way too many args.. however, its mos
 `setRetryPolicy` forces a retry on any channel.. 
 `setPolicyLiberalism` changes whether port forces on all channels etc
 `setThreadPolicy`
-
-## using engine
-`setVarPolicy`
-`setLocationVar`
-`setLocation`
-`setVarMemoryOnly` ==> `ram://var/**`
 
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
