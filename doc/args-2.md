@@ -1,6 +1,4 @@
 # additional args
-## use serializer
-- `--transformer [thing]`
 ## use workers
 - ( implicit ) `--workers`
 - `--workers 4`
