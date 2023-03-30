@@ -30,7 +30,7 @@ This also leads me to think this could have way too many args.. however, its mos
 ### ports
 `getPort`|`port` 
 - `setManifest` -- as below
-`_setDefaultFromFilter` create port from a filter type  that searches everthing
+`_setDefaultFromFilter` create port from a filter type  that searches everthing; you then for example use channels to refine it or whatever... 
 `setPortCachePolicy` stop it using shared caches for diff and sync
 `setDestructorPolicy` make it not care
 `setTransformerPolicy` set what the transformer does
