@@ -74,10 +74,16 @@ This also leads me to think this could have way too many args.. however, its mos
 
 ### channels
 `getChannel`|`channel`
-`setTopic`|`topic`
 `setChannelMode`
 `setChannelAttributes`
 `setChannelCachePolicy`
+
+### topics
+`setTopic`|`topic`
+`getTopics`|`TOPICS`
+`getTopic`
+`_setTopicHash` ==> simple unique hash default
+`_setTopichHashType [blake3]`  ==> use blake 3
 
 ### processing
 `setPq`|`pq`
