@@ -15,6 +15,7 @@
 
 `setScheduler`
 `setChannelLimit`
+`setChannelPolicy` this means a channel can share results from another channel ( within a port ) 
 `setTopicLimit`
 `setDiffLimit`
 `setTransformerLimit`
