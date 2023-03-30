@@ -21,12 +21,16 @@
 `_combine`
 `_merge`
 `_split`
+`PORT_MASQUERADE_SERIAL` forces all ports and channels in them to actually be a mono serial machine ( for debugging ) 
+`PORT_CHANNEL_DUMP` forces `var/dump` for debugging
 
 from prev versions:
 `delay`
 `lfo`
-`threaded`
-`mono`|`serial`
+
+for all channels:
+`mono`|`serial`|`threaded`
+
 
 
 The above depends on Cpp, Go or Rust since that is the only languages id even attempt this with. Havent decided.
