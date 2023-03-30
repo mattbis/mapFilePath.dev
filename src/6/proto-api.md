@@ -38,6 +38,12 @@ This also leads me to think this could have way too many args.. however, its mos
 `setPolicyLiberalism` changes whether port forces on all channels etc
 `setThreadPolicy`
 
+## using engine
+`setVarPolicy`
+`setLocationVar`
+`setLocation`
+`setVarMemoryOnly` ==> `ram://var/**`
+
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
 `setMode`
@@ -85,6 +91,10 @@ This also leads me to think this could have way too many args.. however, its mos
 `getTopic`
 `_setTopicHash` ==> simple unique hash default
 `_setTopichHashType [blake3]`  ==> use blake 3
+
+## Indexing
+- `setChannelPolicy`::index --> `var/run/c/i/`
+  - `var/run/s/i/l/`
 
 ### processing
 `setPq`|`pq`
