@@ -28,7 +28,7 @@ from prev versions:
 `mono`|`serial`
 
 
-The above depends on Go or Rust since that is the only languages id even attempt this with.
+The above depends on Cpp, Go or Rust since that is the only languages id even attempt this with. Havent decided.
 
 This is intended as just a very fancy way to control how the searching, mapping, indexing, caching, diff works... And is meant for a complex application like the other projects I am thinking about. 
 
