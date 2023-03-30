@@ -1,8 +1,6 @@
 ## wip: something like api:
 `getPort`|`port`
 `getChannel`|`channel`
-`orderByPq`
-`orderByManifest`
 `setManifest`|`manifest`
 `setTopic`|`topic`
 
