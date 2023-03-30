@@ -4,6 +4,33 @@
 `getPort`|`port`
 `setPortPolicy`
 `_setDefaultFromFilter`
+`setPortCachePolicy`
+`setDestructorPolicy`
+
+### all
+`setManifest`|`manifest` sets a whole load of things in one go
+`setMode`
+`setAttributes`
+`setFilterCachePolicy`
+- SEMAPHORES `start`|`stop`|`pause`
+`setPhase`
+`getPhase`
+`forcePhase`
+`exhaust`
+`immediate`
+`forget`
+`order`
+`flush`
+`_combine`
+`_merge`
+`_split`
+
+`PORT_MASQUERADE_SERIAL` forces all ports and channels in them to actually be a mono serial machine ( for debugging ) 
+`PORT_CHANNEL_DUMP` forces `var/dump` for debugging
+`PHASE_PRE`
+`PHASE_POST`
+`CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think. ITs teh default... this is only in a build i guess.. 
+`CHANNEL_ISOLATE` dont use any shared caches or structures.
 
 ### filters can apply to ports and channels...
 `setChannelFilter`|`filter`|`no-filter`
@@ -12,16 +39,13 @@
 `setFilterManifest`
 `getFilterFromMode`
 `getFilterFromAttributes`
-`setManifest`|`manifest` sets a whole load of things in one go
-`setMode`
-`setAttributes`
-
 
 ### channels
 `getChannel`|`channel`
 `setTopic`|`topic`
 `setChannelMode`
 `setChannelAttributes`
+`setChannelCachePolicy`
 
 ### processing
 `setPq`|`pq`
@@ -43,24 +67,7 @@
 `setTransformerLimit`
 `setGarbagePolicy`
 `setResident`
-
-### all
-`start`|`stop`|`pause`
-`setPhase`
-`exhaust`
-`immediate`
-`order`
-`flush`
-`_combine`
-`_merge`
-`_split`
-
-`PORT_MASQUERADE_SERIAL` forces all ports and channels in them to actually be a mono serial machine ( for debugging ) 
-`PORT_CHANNEL_DUMP` forces `var/dump` for debugging
-`PHASE_PRE`
-`PHASE_POST`
-`CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think. ITs teh default... this is only in a build i guess.. 
-`CHANNEL_ISOLATE` dont use any shared caches or structures.
+`setCachePolicy` overrides or should be first, if the others need some customisation.. or you just use `setManifest` on the port.
 
 #### implied, part of it, etc.. or programmable.. 
 
