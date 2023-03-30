@@ -89,9 +89,19 @@ This also leads me to think this could have way too many args.. however, its mos
 `setPq`|`pq`
 `setHq`|`hq`
 `setOq`|`oq`
+
 `setHqRecord`
 `setPqRecord`
 `setOqRecord`
+
+`getQMap`
+`setQMap`
+
+`forcePqMap`
+  - `setPqMap`
+
+`forceOqMap`
+  - `setOqMap`
 
 ### output
 `setTransformer`
