@@ -10,6 +10,7 @@ This also leads me to think this could have way too many args.. however, its mos
 - `m`
   - `matts|mstats|mheaders|mcontent|mblock`
   
+- `Class Selector` ==>
 
 - `q`|`query`
 - `q [str]`
@@ -23,6 +24,7 @@ This also leads me to think this could have way too many args.. however, its mos
   - `qheader`
   - `qcontent`
   - `qblock`
+  - `qrange`
 
 ### ports
 `getPort`|`port` 
