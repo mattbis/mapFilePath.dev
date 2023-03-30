@@ -1,6 +1,17 @@
 ## wip: something like api:
 
-- `q`
+in this application like before, some args only work around things.. in the main application you can do all manner of madness by overriding the stack but here we must be strict.
+
+This also leads me to thing this could have way too many args.. however, its mostly meant to be some kind of API I will use.
+
+- `--range`
+- `--range -end [topic]`
+
+- `m`
+  - `matts|mstats|mheaders|mcontent|mblock`
+  
+
+- `q`|`query`
 - `q [str]`
   - `qfrag`
 - `q [topic] [str]`
