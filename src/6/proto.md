@@ -1,4 +1,4 @@
-- something like:-
+## wip: something like api:
 `getPort`|`port`
 `getChannel`|`channel`
 `orderByPq`
@@ -7,6 +7,7 @@
 `setTopic`|`topic`
 `setPq`|`pq`
 `stop`|`pause`
+`setHqRecord`
 `setPqRecord`
 `setTransformer`
 `setScheduler`
@@ -15,6 +16,8 @@
 `setDiffLimit`
 `setTransformerLimit`
 `setGarbagePolicy`
+### all
+`setPhase`
 `exhaust`
 `immediate`
 `order`
@@ -22,19 +25,33 @@
 `_combine`
 `_merge`
 `_split`
+
 `PORT_MASQUERADE_SERIAL` forces all ports and channels in them to actually be a mono serial machine ( for debugging ) 
 `PORT_CHANNEL_DUMP` forces `var/dump` for debugging
+`PHASE_PRE`
+`PHASE_POST`
 
-from prev versions:
+#### implied, part of it, etc.. or programmable.. 
+
+`Indexer`
+`TopicIndexer`
+`Stream`
+`Writer`
+
+
+### from prev versions:
 `delay`
 `lfo`
 
-for all channels:
+### for all channels:
 `mono`|`serial`|`threaded`
+- `setOrder` this can really slow it down
+- `PHASE_POST setOrder`
 
 
+### drafts
 
-The above depends on Cpp, Go or Rust since that is the only languages id even attempt this with. Havent decided.
+The above depends on C, Cpp, Go or Rust since that is the only languages id even attempt this with. Havent decided.
 
 This is intended as just a very fancy way to control how the searching, mapping, indexing, caching, diff works... And is meant for a complex application like the other projects I am thinking about. 
 
@@ -53,10 +70,5 @@ App or library can combine channels or split them for some fragmentation..
 - traits 
   `[[allow channel to use diff]]`
   `[[allow channel to cache topic]]`
-  
-`Indexer`
-`TopicIndexer`
-`Stream`
-`Writer`
 
 #### todo I am not sure what language and also need to improve the fluent concepts.. 
