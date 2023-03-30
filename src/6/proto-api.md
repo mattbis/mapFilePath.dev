@@ -36,6 +36,7 @@ This also leads me to think this could have way too many args.. however, its mos
 `setTransformerPolicy` set what the transformer does
 `setRetryPolicy` forces a retry on any channel.. 
 `setPolicyLiberalism` changes whether port forces on all channels etc
+`setThreadPolicy`
 
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
