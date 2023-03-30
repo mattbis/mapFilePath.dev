@@ -1,14 +1,14 @@
 ## wip: something like api:
 `getPort`|`port`
-`setPortAllowsSides`|`sideInterface`
-`setChannelFilter`|`filter`
+`setPortPolicy`
+`setManifest`|`manifest` sets a whole load of things in one go
 
+`setChannelFilter`|`filter`|`no-filter`
 `setFilter`
 `getFilter`
 `setFilterManifest`
 
 `getChannel`|`channel`
-`setManifest`|`manifest`
 `setTopic`|`topic`
 
 `setPq`|`pq`
