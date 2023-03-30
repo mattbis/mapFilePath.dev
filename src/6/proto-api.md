@@ -4,13 +4,14 @@
 - `q [str]`
   - `qfrag`
 - `q [topic] [str]`
-- `q * [bits]`
-- `qtopic` ==> ** mod:
-- `qatts`
-- `qstats`
-- `qheader`
-- `qcontent`
-- `qblock`
+- `q * [hash|bits]`
+  - `qtopic` ==> ** mod:
+    - `qtopic [hash|id]`
+  - `qatts`
+  - `qstats`
+  - `qheader`
+  - `qcontent`
+  - `qblock`
 
 ### ports
 `getPort`|`port` 
