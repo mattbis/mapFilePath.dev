@@ -1,5 +1,12 @@
 ## wip: something like api:
 `getPort`|`port`
+`setPortAllowsSides`|`sideInterface`
+`setChannelFilter`|`filter`
+
+`setFilter`
+`getFilter`
+`setFilterManifest`
+
 `getChannel`|`channel`
 `setManifest`|`manifest`
 `setTopic`|`topic`
@@ -36,6 +43,7 @@
 `PORT_CHANNEL_DUMP` forces `var/dump` for debugging
 `PHASE_PRE`
 `PHASE_POST`
+`CHANNEL_SIDE` include to allow channels to share data, or set it for the runtime bindings... its faster included. I think.
 
 #### implied, part of it, etc.. or programmable.. 
 
