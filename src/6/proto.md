@@ -3,6 +3,7 @@
 `getChannel`|`channel`
 `orderByPq`
 `orderByManifest`
+`setManifest`|`manifest`
 `setTopic`|`topic`
 `setPq`|`pq`
 `stop`|`pause`
