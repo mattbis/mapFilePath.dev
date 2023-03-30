@@ -29,7 +29,7 @@ This also leads me to think this could have way too many args.. however, its mos
 
 ### ports
 `getPort`|`port` 
-`setPortPolicy` set a blanket policy tree that effects the others, then you change it for each thing if you want
+- `setManifest` -- as below
 `_setDefaultFromFilter` create port from a filter type  that searches everthing
 `setPortCachePolicy` stop it using shared caches for diff and sync
 `setDestructorPolicy` make it not care
