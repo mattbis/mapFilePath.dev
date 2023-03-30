@@ -34,12 +34,15 @@ This also leads me to think this could have way too many args.. however, its mos
 `setPortCachePolicy` stop it using shared caches for diff and sync
 `setDestructorPolicy` make it not care
 `setTransformerPolicy` set what the transformer does
+`setRetryPolicy` forces a retry on any channel.. 
+`setPolicyLiberalism` changes whether port forces on all channels etc
 
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
 `setMode`
 `setAttributes`
 `setFilterCachePolicy`
+`setRetryPolicy`
 - SEMAPHORES `start`|`stop`|`pause`
 `setPhase`
 `getPhase`
