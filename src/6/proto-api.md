@@ -104,6 +104,9 @@ using engine
   - `var/run/s/i/l/`
 
 ### processing - applies to a channel or a port ( depending on policy )
+
+`setHeuristicQ`|`heq` the below is a fast average, whilst this is using erm.. .
+
 `setPq`|`pq` you can set it for a channel but in reality its kinda stupid as they exist and go etc
 `setHq`|`hq` 
 `setOq`|`oq`
@@ -113,6 +116,7 @@ using engine
 
 - for example, a linear single processor could handle this whilst the demand is met for huge files in chunk reads.. 
 `setBq`|`bq` 
+`setMq`|`mq`
 `setSq`|`sq`
 
 `setHqRecord`
@@ -120,6 +124,7 @@ using engine
 `setOqRecord`
 
 `setBqRecord`
+`setMqRecord`
 `setSqRecord`
 
 `getQMap`
