@@ -144,7 +144,7 @@ using engine
 `setOutputPolicy`
 
 ### runner/runtime/policy
-`setScheduler queue[bq|sq|hq|oq]`
+`setScheduler queue[bq|mq|sq|hq|oq]`
 `setChannelLimit`
 `setChannelPolicy` this means a channel can share results from another channel ( within a port ) 
 `setTopicLimit`
