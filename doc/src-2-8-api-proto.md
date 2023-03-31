@@ -1,4 +1,4 @@
-## wip: something like api:
+## wip: something like api: right now im adding too much since we have to think about it 
 
 ### todo
 1. serialiser - is a transformer that applies only to `oq`
@@ -49,6 +49,7 @@ using engine
 `setRetryPolicy` forces a retry on any channel.. 
 `setPolicyLiberalism` changes whether port forces on all channels etc
 `setThreadPolicy`
+`setExhaustionPolicy` sets how channels merge if exhausted, use their own manifest, a manifest or whatever it merges the current
 
 ### all
 `setManifest`|`manifest` sets a whole load of things in one go
