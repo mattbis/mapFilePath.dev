@@ -37,7 +37,7 @@ This also leads me to think this could have way too many args.. however, its mos
 ### ports
 using engine
   `setVarPolicy`
-  `setLocationVar`
+  `setVarLocation`
   `setLocation`
   `setVarMemoryOnly` ==> `ram://var/**`
 
