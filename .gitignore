@@ -2,5 +2,12 @@
 .vscode
 .idea
 node_modules/
-./var/run
-./var/build
+var/run
+var/build
+.log
+
+# Ignore compiled files
+*.class
+*.o
+*.out
+*.pyc
