@@ -1,5 +1,10 @@
 ## wip: something like api:
 
+### todo
+1. serialiser
+2. transformer confusion
+3. the `bq` | `sq` problem and diff/cache
+
 in this application like before, some args only work around things.. in the main application you can do all manner of madness by overriding the stack but here we must be strict.
 
 This also leads me to think this could have way too many args.. however, its mostly meant to be some kind of API I will use.
