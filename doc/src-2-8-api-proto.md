@@ -1,10 +1,10 @@
 ## wip: something like api:
 
 ### todo
-1. serialiser
-2. transformer confusion
+1. serialiser - is a transformer that applies only to `oq`
+2. transformer confusion - is a core include - you can not need any serialiser for example since it could be binary chunks
 3. the `bq` | `sq` problem and diff/cache ( massive files, a ton of small files - since peopel have weird stuff ) 
-4. the external changes problem
+4. the external changes problem. During processing a restat option. On Top level. But with compensator... ( since io )
 
 in this application like before, some args only work around things.. in the main application you can do all manner of madness by overriding the stack but here we must be strict.
 
