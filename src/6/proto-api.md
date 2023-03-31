@@ -3,7 +3,7 @@
 ### todo
 1. serialiser
 2. transformer confusion
-3. the `bq` | `sq` problem and diff/cache
+3. the `bq` | `sq` problem and diff/cache ( massive files, a ton of small files - since peopel have weird stuff ) 
 
 in this application like before, some args only work around things.. in the main application you can do all manner of madness by overriding the stack but here we must be strict.
 
