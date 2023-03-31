@@ -96,14 +96,22 @@ using engine
 - `setChannelPolicy`::index --> `var/run/c/i/`
   - `var/run/s/i/l/`
 
-### processing
-`setPq`|`pq`
-`setHq`|`hq`
+### processing - applies to a channel or a port ( depending on policy )
+`setPq`|`pq` you can set it for a channel but in reality its kinda stupid as they exist and go etc
+`setHq`|`hq` 
 `setOq`|`oq`
+
+### im not sure how people do this I assummed it might be above,,, but this problem could mean `bq` must be enabled.
+##### hmm good point... enable this from a mode.. essentially it means a slowdown since we have to find out what is biggest.. or we can find it as we go from what changed, and what we already know...
+`setBq`|`bq` 
+`setSq`|`sq`
 
 `setHqRecord`
 `setPqRecord`
 `setOqRecord`
+
+`setBqRecord`
+`setSqRecord`
 
 `getQMap`
 `setQMap`
@@ -122,7 +130,7 @@ using engine
 `setOutputPolicy`
 
 ### runner/runtime/policy
-`setScheduler`
+`setScheduler queue[bq|sq|hq|oq]`
 `setChannelLimit`
 `setChannelPolicy` this means a channel can share results from another channel ( within a port ) 
 `setTopicLimit`
