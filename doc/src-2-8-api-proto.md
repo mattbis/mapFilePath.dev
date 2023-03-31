@@ -6,6 +6,7 @@
 3. the `bq` | `sq` problem and diff/cache ( massive files, a ton of small files - since peopel have weird stuff ) 
 4. the external changes problem. During processing a restat option. On Top level. But with compensator... ( since io )
 5. i keep forgetting about subargs and now I just realised `heuristics` is a thing.. I didnt read on it though instead its an after thought until tomorrow.  That though is kinda 7 or 8. since basically its just imperative.
+6. api is a bit wordy.,
 
 in this application like before, some args only work around things.. in the main application you can do all manner of madness by overriding the stack but here we must be strict.
 
