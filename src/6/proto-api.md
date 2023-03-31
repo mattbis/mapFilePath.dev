@@ -99,6 +99,7 @@ using engine
 `_setTopichHashType [blake3]`  ==> use blake 3
 
 ## Indexing
+- `setPortPolicy`::index --> `var/run/p/i/`
 - `setChannelPolicy`::index --> `var/run/c/i/`
   - `var/run/s/i/l/`
 
@@ -109,6 +110,8 @@ using engine
 
 ### im not sure how people do this I assummed it might be above,,, but this problem could mean `bq` must be enabled.
 ##### hmm good point... enable this from a mode.. essentially it means a slowdown since we have to find out what is biggest.. or we can find it as we go from what changed, and what we already know...
+
+- for example, a linear single processor could handle this whilst the demand is met for huge files in chunk reads.. 
 `setBq`|`bq` 
 `setSq`|`sq`
 
@@ -145,6 +148,12 @@ using engine
 `setGarbagePolicy`
 `setResident`
 `setCachePolicy` overrides or should be first, if the others need some customisation.. or you just use `setManifest` on the port.
+
+### stat
+`setVarStat`
+`getVarStat`
+`setVarGraph`
+`getVarGraph`
 
 #### implied, part of it, etc.. or programmable.. 
 
