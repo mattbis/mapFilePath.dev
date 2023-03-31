@@ -211,4 +211,4 @@ App or library can combine channels or split them for some fragmentation..
   `[[allow channel to use diff]]`
   `[[allow channel to cache topic]]`
 
-#### todo I am not sure what language and also need to improve the fluent concepts.. 
+#### todo I am not sure what language and also need to improve the fluent concepts..  and language.
