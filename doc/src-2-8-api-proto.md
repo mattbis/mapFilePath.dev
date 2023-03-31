@@ -157,8 +157,8 @@ using engine
 ### stat
 `setVarStat`
 `getVarStat`
-`setVarGraph`
-`getVarGraph`
+`setVarGraph(T)`
+`getVarGraph(T)`
 
 #### implied, part of it, etc.. or programmable.. 
 
