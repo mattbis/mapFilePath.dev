@@ -54,6 +54,7 @@ using engine
 `setExhaustionPolicy` sets how channels merge if exhausted, use their own manifest, a manifest or whatever it merges the current
 
 ### all
+`setPath`|`path`
 `setManifest`|`manifest` sets a whole load of things in one go
 `setMode`
 `setAttributes`
