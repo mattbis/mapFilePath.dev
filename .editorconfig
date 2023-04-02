@@ -1,5 +1,7 @@
 root = true
 
+# todo what is faster brace expansion or below?
+
 [*]
 charset = utf-8
 end_of_line = lf
@@ -18,6 +20,9 @@ indent_size = 2
 indent_size = 2
 
 [*.py]
+indent_size = 4
+
+[*.c]
 indent_size = 4
 
 [*.cpp]
