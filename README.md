@@ -15,3 +15,5 @@ In any case.. a namespace/module/class/funtions/consts approach is best.
   i. scripting goes up to edition 2. 
   ii. source is only supported in main language to 8.
   iii. some attempt is made to make it cross compile.
+
+2. In `dev2` we reduce the source tree massively to achieve our aims but instead make the entire model shared.. across language targets. ( such that res/share etc ) 
