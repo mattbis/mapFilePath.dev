@@ -6,6 +6,8 @@
 #include <dirent.h>
 #include <string.h>
 
+// hmmm this is wrong.. 
+
 void mapFilePath(char *path) {
     struct stat st;
     if (stat(path, &st) == -1) {
