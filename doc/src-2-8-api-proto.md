@@ -82,12 +82,12 @@ using engine
 `FILTER_ISOLATE` dont use any shared caches or structures.
 
 ### filters can apply to ports and channels...
-`setChannelFilter`|`filter`|`no-filter`
-`setFilter`
-`getFilter`
-`setFilterManifest`
-`getFilterFromMode`
-`getFilterFromAttributes`
+symbols `filter`|`no-filter`
+`setPortFilter`, `setChannelFilter` ==> `setFilter`
+`getFilter(cid,pid,fid)`
+`setFilterManifest(mid)`
+`getFilterFromMode(qmode)`
+`getFilterFromAttributes(qatts)`
 
 ### channels
 `getChannel`|`channel`
