@@ -22,4 +22,7 @@ In any case.. a namespace/module/class/funtions/consts approach is best.
 
 # mothball
 
-1. I suddenly think this is madness in fact this process is quite teh same in all languages, its just a action model tree.. and already these symbols must exist.. in such we can produce a logic tree... into llvm for example.. lets think about this briefly next in a new repo.. 
+1. I suddenly think this is madness, but great progress, in that it really helped.. and will help in one version...
+
+in fact this process is quite teh same in all languages( since posix, syscalls etc obviously i know this... its more about what a lang is doing at first.. and then now .. a much more interesting tool...
+, its just a action model tree.. and already these symbols must exist.. in such we can produce a logic tree... into llvm for example.. lets think about this briefly next in a new repo.. 
