@@ -17,3 +17,9 @@ In any case.. a namespace/module/class/funtions/consts approach is best.
   iii. some attempt is made to make it cross compile.
 
 2. In `dev2` we reduce the source tree massively to achieve our aims but instead make the entire model shared.. across language targets. ( such that res/share etc ) 
+
+
+
+# mothball
+
+1. I suddenly think this is madness in fact this process is quite teh same in all languages, its just a action model tree.. and already these symbols must exist.. in such we can produce a logic tree... into llvm for example.. lets think about this briefly next in a new repo.. 
