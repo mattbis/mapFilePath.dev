@@ -109,7 +109,7 @@ using engine
 
 ### processing - applies to a channel or a port ( depending on policy )
 
-`setHeuristicQ`|`heq` the below is a fast average, whilst this is using erm.. .
+`setHeuristicQ`|`heq` the below is a fast average, whilst this is using erm..  here is a guess, its a matrix of averages over time, and this adjusts the queues... whilst the below is set to some finite number its faster, but could go wrong... I suppose there are likely ways to optimise the algorithm used.. 
 
 `setPq`|`pq` you can set it for a channel but in reality its kinda stupid as they exist and go etc
 `setHq`|`hq` 
