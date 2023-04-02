@@ -13,6 +13,7 @@ void mapFilePath(char *path) {
         exit(EXIT_FAILURE);
     }
 
+    // i have to admit i had not thought how easy it is to do that.. 
     printf("{ path: \"%s\", st_dev: %llu, st_ino: %llu, st_mode: %o, st_nlink: %lu, st_uid: %u, st_gid: %u, st_rdev: %llu, st_size: %lld, st_atime: %ld, st_mtime: %ld, st_ctime: %ld }\n",
         path,
         (unsigned long long) st.st_dev,
