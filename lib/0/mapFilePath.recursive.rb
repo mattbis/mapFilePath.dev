@@ -1,6 +1,7 @@
 require 'find'
 require 'json'
 
+# ruby syntax is a bit odd i find it less intuitive .. however you can read cpp until you reach bracket soup
 def map_file_path_recursive(path)
   results = []
 
