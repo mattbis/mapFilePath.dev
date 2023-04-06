@@ -1,7 +1,8 @@
 import os
 import json
 
-# maybe walk is a good name.. hmmm
+# walk is likely better the point is more about customising etc.. and a base test.. 
+# need to add a walk variant somewhere else though.. this is not meant to be fast or whatever
 def map_file_path(path):
     result = {}
     for entry in os.scandir(path):
